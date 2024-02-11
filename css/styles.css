@@ -761,6 +761,11 @@ pointer-events: auto;
     text-decoration-line: underline;
 }
 
+.modal-checkbox:focus + .modal-terms-label
+.modal-terms-checkbox {
+    outline: 1px solid #4D5AE5;
+}
+
 .modal-send-btn {
     display: block;
     min-width: 169px;
